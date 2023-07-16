@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    overflow: hidden;
+    background: url("space.png");
+    background-size: cover;
+}
+
+.box {
+    height: 625px;
+    width: 625px;
+    border: 2px solid rgb(26, 150, 88);
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30%;
+    margin-top: 3%;
+
+}
+
+/* create  boxes */
+.box div {
+    height: 25px;
+    width: 25px;
+    color: aqua;
+}
+
+.invetor {
+    height: 20px;
+    width: 20px;
+    top: 0px;
+    background: url('alienimg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.shooter {
+    background-color: red;
+    background: url("shooter.jpg");
+    height: 25px;
+    width: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.goli {
+    height: 10px;
+    width: 10px;
+    background-color: brown;
+    background: url(8ji5apo3-900.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* Now come to display score and gameover   */
+.score-text {
+    font-size: 50px;
+    padding-right: 0px;
+    margin-left: 120px;
+    color: aquamarine;
+    background-size: 50%;
+}
+
+div.inline {
+    float: left;
+}
+
+#score {
+    margin-top: 4px;
+    color: aqua;
+    font-size: 50px;
+}
+
+#over {
+    color: antiquewhite;
+    font-size: x-large;
+    text-align: center;
+}
